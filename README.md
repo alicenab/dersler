@@ -25,7 +25,9 @@ Virtual Serverdə Ubuntunu əlavə paketlər olmadan \(installing prosesində so
   
 Gələcəkdə browserdən istifadə edəcəyimizi nəzərə alaraq, ubuntu-dekstop-u quraşdırmalıyıq.
 
-
+```bash
+$ sudo apt install ubuntu-desktop
+```
 
 Serverə yüklənmiş Python iki cür görsənmək ehtimalı var, python və python3. Sadə dildə desək, python 2.x versiyaları üçün, python3 isə python 3.x versiyaları üçün nəzərdə tutulub. Sistemə yüklənib yüklənmədiyini aşağıdakı qaydada yoxlamalıyıq:
 
@@ -60,13 +62,11 @@ $ sudo -H pip3 install -U pipenv
 Proyektim üçün yeni bir qovluq yaradıram:
 
 ```text
-$ mkdir yeniproyekt
+$ mkdir ~/Documents/yeniproyekt -p
+$ cd ~/Documents/yeniproyekt
 hal-hazırda hansı qovluğun içində olduğum sizə maraqlıdırsa:
-$ pwd 
-/home/alicenab/yeniproyekt
-```
-
 Djangonu virtual mühitə yükləmək üçün:
+```
 
 ```text
 $ pipenv install django==2.2.5

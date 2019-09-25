@@ -26,17 +26,15 @@ Diqqət etsəniz görərsiniz ki, virtual mühitdə istifadə etdiyimiz python v
 Aşağıdakı komandanı yazaraq, proyektimizi run edə bilərik.
 
 ```text
+(yeniproyekt) $ cd menimsaytim/
 (yeniproyekt) $ python manage.py runserver
 ```
 
+Əgər virtual serverin browserindən [http://127.0.0.1:8000](http://127.0.0.1:8000) adresinə girsəniz,  `The install worked successfully! Congratulations!` yazısı görəcəksiniz. Əgər gördünüzsə, sizi təbrik edirəm! 🥳 
 
 
-```text
-$ sudo ufw enable
-$ sudo ufw status
-$ sudo ufw allow http
-$ sudo ufw 
-```
+
+
 
 
 
