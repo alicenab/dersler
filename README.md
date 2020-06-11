@@ -64,9 +64,14 @@ Proyektim üçün yeni bir qovluq yaradıram:
 ```text
 $ mkdir ~/Documents/yeniproyekt -p
 $ cd ~/Documents/yeniproyekt
-hal-hazırda hansı qovluğun içində olduğum sizə maraqlıdırsa:
-Djangonu virtual mühitə yükləmək üçün:
 ```
+
+Hal-hazırda hansı qovluğun içində olduğum sizə maraqlıdırsa:
+```text
+$ pwk
+```
+
+Djangonu virtual mühitə yükləmək üçün:
 
 ```text
 $ pipenv install django==2.2.5
